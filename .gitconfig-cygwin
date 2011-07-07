@@ -1,0 +1,26 @@
+[core]
+	symlinks = false
+	ignoreCygwinFSTricks = false
+	filemode = false
+	fileMode = false
+	excludesfile = /home/Alex/.gitignore
+[alias]
+	st = status
+	ci = commit
+	sa = stash
+	di = diff
+	co = checkout
+	sdc = svn dcommit
+	sr = svn rebase
+	ap = add -p
+	civ = commit -v
+	cf = checkout -f
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[apply]
+	whitespace = fix
+[user]
+	name = Alex Kiesel
+	email = alex@kiesel.name

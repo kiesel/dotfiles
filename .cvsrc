@@ -1,0 +1,4 @@
+cvs -q -z9
+update -A
+diff -u
+status -v

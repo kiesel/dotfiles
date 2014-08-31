@@ -1,0 +1,20 @@
+xp5:
+  description: "XP Framework"
+  tree:
+    ".":
+      - xp.public: git@github.com:xp-framework/xp-framework.git
+      - compiler: git@github.com:xp-lang/compiler.git
+      - rfc: git@github.com:xp-framework/rfc.git
+
+xp6:
+  description: "XP Framework 6-line"
+  tree:
+    "xp6":
+      - core: git@github.com:xp-framework/core.git
+
+xp-infra:
+  description: "XP Framework Infrastructure"
+  tree:
+    ".":
+      - xp.runners: git@github.com:xp-framework/xp-runners.git
+      - xp-maven-plugin: git@github.com:xp-forge/xp-maven-plugin.git

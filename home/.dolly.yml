@@ -4,17 +4,55 @@ xp5:
     ".":
       - xp.public: git@github.com:xp-framework/xp-framework.git
       - compiler: git@github.com:xp-lang/compiler.git
-      - rfc: git@github.com:xp-framework/rfc.git
 
 xp6:
   description: "XP Framework 6-line"
   tree:
     "xp6":
       - core: git@github.com:xp-framework/core.git
+      - sequence: git@github.com:xp-forge/sequence.git
+      - inject: git@github.com:xp-forge/inject.git
+      - glue: git@github.com:xp-framework/glue.git
+      - rdbms: git@github.com:xp-framework/rdbms.git
+      - webservices: git@github.com:xp-framework/webservices.git
+      - scriptlet: git@github.com:xp-framework/scriptlet.git
+      - rest: git@github.com:xp-framework/rest.git
+      - zip: git@github.com:xp-framework/zip.git
+      - ldap: git@github.com:xp-framework/ldap.git
+      - parser: git@github.com:xp-framework/parser.git
+      - xml: git@github.com:xp-framework/xml.git
+      - imaging: git@github.com:xp-framework/imaging.git
+      - remote: git@github.com:xp-framework/remote.git
+      - http: git@github.com:xp-framework/http.git
+      - ftp: git@github.com:xp-framework/ftp.git
+      - web: git@github.com:xp-framework/web.git
+      - mail: git@github.com:xp-framework/mail.git
+      - telephony: git@github.com:xp-framework/telephony.git
+      - spelling: git@github.com:xp-framework/spelling.git
+      - codegen: git@github.com:xp-framework/codegen.git
+      - webdav: git@github.com:xp-framework/webdav.git
+      - sieve: git@github.com:xp-framework/sieve.git
+      - irc: git@github.com:xp-framework/irc.git
+      - news: git@github.com:xp-framework/news.git
+      - csv: git@github.com:xp-framework/csv.git
+      - doclet: git@github.com:xp-framework/doclet.git
+
+xp-forge:
+  description: "XP Contrib"
+  tree:
+    "xp.forge":
+      - stomp: git@github.com:xp-forge/stomp.git
+      - handlebars: git@github.com:xp-forge/handlebars.git
+      - mustache: git@github.com:xp-forge/mustache.git
+      - yaml: git@github.com:xp-forge/yaml.git
+      - markdown: git@github.com:xp-forge/markdown.git
+      - nsca: git@github.com:xp-forge/nsca.git
+      -
 
 xp-infra:
   description: "XP Framework Infrastructure"
   tree:
     ".":
+      - rfc: git@github.com:xp-framework/rfc.git
       - xp.runners: git@github.com:xp-framework/xp-runners.git
       - xp-maven-plugin: git@github.com:xp-forge/xp-maven-plugin.git

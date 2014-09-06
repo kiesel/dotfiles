@@ -27,5 +27,5 @@
         symlinks = false  
         ignorecase = true  
         excludesfile = ~/.gitignore  
-; [push]
-;         default = simple
+[push]
+        default = simple

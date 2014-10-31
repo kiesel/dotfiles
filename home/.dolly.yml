@@ -47,7 +47,6 @@ xp-forge:
       - yaml: git@github.com:xp-forge/yaml.git
       - markdown: git@github.com:xp-forge/markdown.git
       - nsca: git@github.com:xp-forge/nsca.git
-      -
 
 xp-infra:
   description: "XP Framework Infrastructure"

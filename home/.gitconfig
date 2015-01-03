@@ -14,8 +14,8 @@
         df = diff
         dc = diff --cached
 [user]  
-        name = Alex Kiesel
-        email = alex@kiesel.name
+        name = "Alex D'Andrea"
+        email = alex@dandrea.io
 [color]  
         diff = auto  
         status = auto  

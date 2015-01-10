@@ -16,32 +16,32 @@ xp6:
   tree:
     "xp6":
       - core: git@github.com:xp-framework/core.git
-      - sequence: git@github.com:xp-forge/sequence.git
-      - inject: git@github.com:xp-forge/inject.git
+      - codegen: git@github.com:xp-framework/codegen.git
+      - csv: git@github.com:xp-framework/csv.git
+      - doclet: git@github.com:xp-framework/doclet.git
       - glue: git@github.com:xp-framework/glue.git
-      - rdbms: git@github.com:xp-framework/rdbms.git
-      - webservices: git@github.com:xp-framework/webservices.git
-      - scriptlet: git@github.com:xp-framework/scriptlet.git
-      - rest: git@github.com:xp-framework/rest.git
-      - zip: git@github.com:xp-framework/zip.git
-      - ldap: git@github.com:xp-framework/ldap.git
-      # - parser: git@github.com:xp-framework/parser.git
-      - xml: git@github.com:xp-framework/xml.git
-      # - imaging: git@github.com:xp-framework/imaging.git
-      # - remote: git@github.com:xp-framework/remote.git
       - http: git@github.com:xp-framework/http.git
-      # - ftp: git@github.com:xp-framework/ftp.git
+      - imaging: git@github.com:xp-framework/imaging.git
+      - inject: git@github.com:xp-forge/inject.git
+      - ldap: git@github.com:xp-framework/ldap.git
+      - mail: git@github.com:xp-framework/mail.git
+      - parser: git@github.com:xp-framework/parser.git
+      - rdbms: git@github.com:xp-framework/rdbms.git
+      - rest: git@github.com:xp-framework/rest.git
+      - scriptlet: git@github.com:xp-framework/scriptlet.git
+      - sequence: git@github.com:xp-forge/sequence.git
       - web: git@github.com:xp-framework/web.git
-      # - mail: git@github.com:xp-framework/mail.git
-      # - telephony: git@github.com:xp-framework/telephony.git
-      # - spelling: git@github.com:xp-framework/spelling.git
-      # - codegen: git@github.com:xp-framework/codegen.git
-      # - webdav: git@github.com:xp-framework/webdav.git
-      # - sieve: git@github.com:xp-framework/sieve.git
+      - webservices: git@github.com:xp-framework/webservices.git
+      - xml: git@github.com:xp-framework/xml.git
+      - zip: git@github.com:xp-framework/zip.git
+      # - ftp: git@github.com:xp-framework/ftp.git
       # - irc: git@github.com:xp-framework/irc.git
       # - news: git@github.com:xp-framework/news.git
-      - csv: git@github.com:xp-framework/csv.git
-      # - doclet: git@github.com:xp-framework/doclet.git
+      # - remote: git@github.com:xp-framework/remote.git
+      # - sieve: git@github.com:xp-framework/sieve.git
+      # - spelling: git@github.com:xp-framework/spelling.git
+      # - telephony: git@github.com:xp-framework/telephony.git
+      # - webdav: git@github.com:xp-framework/webdav.git
 
 xp-forge:
   description: "XP Contrib"

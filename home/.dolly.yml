@@ -65,6 +65,7 @@ xp-infra:
 default:
   includes:
     - xp5
+    - xp6
     - xp-infra
     - xp-forge
     - kiesel

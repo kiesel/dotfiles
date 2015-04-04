@@ -10,6 +10,7 @@ kiesel:
   tree:
     ".":
       - dialog: git@github.com:thekid/dialog.git
+      - lizzily: git@bitbucket.org:mariedandrea/lizzily.git
 
 xp6:
   description: "XP Framework 6-line"

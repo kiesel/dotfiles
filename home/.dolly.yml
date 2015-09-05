@@ -64,6 +64,7 @@ xp-infra:
       - rfc: git@github.com:xp-framework/rfc.git
       - xp.runners: git@github.com:xp-framework/xp-runners.git
       - xp-maven-plugin: git@github.com:xp-forge/xp-maven-plugin.git
+      - xp-runners-go: git@github.com:kiesel/xp-runners-go.git
 
 default:
   includes:

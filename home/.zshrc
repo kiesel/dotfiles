@@ -44,7 +44,7 @@ source $HOME/.homesick/repos/homeshick/homeshick.sh
 homeshick refresh -q 2
 
 # User configuration
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/bin:/usr/local/go/bin"
 export EDITOR=vim
 
 alias ssr="ssh -l root"

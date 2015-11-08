@@ -13,6 +13,7 @@ kiesel:
       - lizzily: git@bitbucket.org:mariedandrea/lizzily.git
       - swarm: git@bitbucket.org:kiesel/ansible-swarm.git
       - dandrea.io: git@bitbucket.org:kiesel/dandrea.io.git
+      - uska: git@github.com:kiesel/uska.git
 
 xp6:
   description: "XP Framework 6-line"

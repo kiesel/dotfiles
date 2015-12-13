@@ -16,5 +16,9 @@ if [ ! -d .homesick/repos/zgen ]; then
   .homesick/repos/homeshick/bin/homeshick clone tarjoilija/zgen
 fi
 
+if [ ! -d .homesick/repos/oh-my-zsh ]; then
+  .homesick/repos/homeshick/bin/homeshick clone robbyrussel/oh-my-zsh
+fi
+
 .homesick/repos/homeshick/bin/homeshick link --batch
 

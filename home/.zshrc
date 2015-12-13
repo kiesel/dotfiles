@@ -6,7 +6,7 @@ DISABLE_CORRECTION="true"
 zstyle ':completion:*' special-dirs true
 ZSH_TMUX_AUTOSTART=true
 
-plugins=(git tmux sudo docker jsontools gpg-agent)
+plugins=(git tmux sudo docker jsontools gpg-agent composer)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.homesick/repos/homeshick/homeshick.sh

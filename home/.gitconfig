@@ -1,18 +1,3 @@
-[alias]  
-        st = status  
-        ci = commit  
-        sa = stash  
-        di = diff  
-        co = checkout  
-        sr = svn rebase  
-        sdc = svn dcommit  
-        ap = add -p  
-        civ = commit -v  
-        cf = checkout -f
-        pd = push --dry-run
-        up = "!git remote update -p; git merge --ff-only @{u}"
-        df = diff
-        dc = diff --cached
 [user]  
         name = "Alex D'Andrea"
         email = alex@dandrea.io
@@ -23,9 +8,6 @@
 [apply]  
         whitespace = fix  
 [core]  
-        filemode = false  
-        symlinks = false  
-        ignorecase = true  
         excludesfile = ~/.gitignore  
 [push]
         default = simple

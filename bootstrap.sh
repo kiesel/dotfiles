@@ -16,9 +16,5 @@ if [ ! -d .homesick/repos/zgen ]; then
   .homesick/repos/homeshick/bin/homeshick clone git://github.com/tarjoilija/zgen --batch
 fi
 
-if [ ! -d .homesick/repos/oh-my-zsh ]; then
-  .homesick/repos/homeshick/bin/homeshick clone git://github.com/robbyrussell/oh-my-zsh.git  --batch
-fi
-
 .homesick/repos/homeshick/bin/homeshick link --batch
 

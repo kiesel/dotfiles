@@ -14,7 +14,6 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/sudo
 	zgen oh-my-zsh plugins/docker
 	zgen oh-my-zsh plugins/jsontools
-	zgen oh-my-zsh plugins/composer
 	zgen oh-my-zsh themes/ys
 
 	zgen load zsh-users/zsh-syntax-highlighting

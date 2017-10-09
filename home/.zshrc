@@ -25,8 +25,13 @@ if ! zgen saved; then
 fi
 
 # User configuration
-export PATH="$PATH:$HOME/bin:/usr/local/go/bin"
+export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/go/bin"
 export EDITOR=vim
 
 alias ssr="ssh -l root"
 alias hs="homeshick"
+
+export SSH_HTTP_PROXY=${${http_proxy#http://}%/}
+
+alias reload="source ~/.zshrc"
+alias zshrc="${EDITOR} ~/.zshrc && reload"

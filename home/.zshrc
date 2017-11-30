@@ -1,6 +1,7 @@
 export ZSH=$HOME/.homesick/repos/oh-my-zsh
 
 ZSH_TMUX_AUTOSTART=true
+export SSH_HTTP_PROXY=${${http_proxy#http://}%/}
 
 source $HOME/.homesick/repos/homeshick/homeshick.sh
 homeshick refresh -q 2
@@ -27,11 +28,11 @@ fi
 # User configuration
 export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/go/bin"
 export EDITOR=vim
+export CDPATH=~:~/dev
 
 alias ssr="ssh -l root"
 alias hs="homeshick"
 
-export SSH_HTTP_PROXY=${${http_proxy#http://}%/}
 
 alias reload="source ~/.zshrc"
 alias zshrc="${EDITOR} ~/.zshrc && reload"

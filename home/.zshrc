@@ -16,6 +16,8 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/docker
 	zgen oh-my-zsh plugins/jsontools
 	zgen oh-my-zsh themes/ys
+	zgen oh-my-zsh plugins/composer
+	zgen oh-my-zsh plugins/gpg-agent
 
 	zgen load zsh-users/zsh-syntax-highlighting
 	zgen load zsh-users/zsh-completions src
@@ -26,13 +28,12 @@ if ! zgen saved; then
 fi
 
 # User configuration
-export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/go/bin"
+export PATH="$PATH:$HOME/bin:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin"
 export EDITOR=vim
 export CDPATH=~:~/dev
 
 alias ssr="ssh -l root"
 alias hs="homeshick"
 
-
-alias reload="source ~/.zshrc"
+alias reload="echo Reloading zshrc ; . ~/.zshrc"
 alias zshrc="${EDITOR} ~/.zshrc && reload"
